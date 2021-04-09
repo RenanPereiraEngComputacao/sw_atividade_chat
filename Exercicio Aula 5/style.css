@@ -1,0 +1,184 @@
+/* geral*/
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+/* estilos do header*/
+.chat-header{
+    display: flex;
+    cursor: pointer;
+    border-bottom:2px solid black ;
+}
+.profile{
+    width: 100% ;
+    background: #036055;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 5px;
+    position: relative;
+}
+.profile .pp{
+    width: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.profile h2{
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: bottom;
+    color: aliceblue;
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* estilo chat*/
+
+
+#chat {
+    display: block;
+    box-sizing: border-box;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 2px;
+    margin-left: -2px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    position: absolute;
+    top: 64px;
+    bottom: 55px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y: scroll;
+}
+/*olha a gambi entrando em ação*/
+.left{
+    display: block; 
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;  
+}
+.right{    
+    display: block;
+    float: right;
+    max-width: 500px;
+    width: 100%;
+    
+      
+}
+.right span{
+    
+    float: right;
+    width: 100%;
+    text-align: right;
+  
+}
+.right h4{
+    display: block;
+    float: right;
+    text-align: right;
+    background:#00a000;
+    color: #f1f1f1;
+      
+}
+h4{
+    display: block;
+    margin-bottom: 5px;
+    padding: 2PX;
+    padding-left: 5PX;
+    padding-right: 5PX;
+    font-size: 18px;
+    width: 300px;
+    background: #0038e5;
+    color: #f1f1f1;
+    border:1px solid black;
+    font-weight: 600;
+    border-radius: 10PX;
+}
+span{
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+*::-webkit-scrollbar {
+	width: 5px;
+    margin-top: 2%;
+    
+    
+}
+*::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb {
+	background: #aaa;
+}
+*::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+/* estilo footer*/
+
+.chat-footer{
+    display: flex;
+    height: 55px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    margin-right: 2px;
+    margin-left: -2px;
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    
+
+}
+
+textarea{
+    width: 410px;
+    height: 50px;
+    border-radius: 30px;
+    
+    padding: 10px;
+    outline: none;
+    font-size: 19px;
+    padding-left: 40px;
+    padding-right: 90px;
+    border: 2px solid #ccc;
+    color: #555;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+button{
+    width: 60px;
+    height: 50px;
+    border: 2px solid #ccc;
+    color: rgb(0, 225, 255);
+    background: #555;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    align-items: center;
+    
+    
+}
+button:hover{
+    color: 2px solid #ccc;
+    border: rgb(0, 225, 255);
+}
